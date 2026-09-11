@@ -45852,8 +45852,7 @@ const canvas = document.getElementById("gameCanvas");
       }
 
       if (key === "ArrowDown" && direction.y !== -1) {
-        nextDirection = { x: 0, y: 1 };
-      }const canvas = document.getElementById("gameCanvas");
+        nextDirection =const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
     const scoreElement = document.getElementById("score");
 
@@ -91720,7 +91719,8 @@ const canvas = document.getElementById("gameCanvas");
     });
 
 
-
+ { x: 0, y: 1 };
+      }
 
       if (key === "ArrowLeft" && direction.x !== 1) {
         nextDirection = { x: -1, y: 0 };
